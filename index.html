@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="ko" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>배경이미지</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+       <style>
+           #wrap{
+               width: 100%;
+          
+           }
+           *{
+                margin: 0;
+               padding: 0;
+               
+           }
+           a{
+               text-decoration: none;
+               color: inherit;
+           }
+           #vidwrap{
+               width: 100%;
+              overflow: hidden;
+               height: 100vh;
+               position: relative;
+           }
+           #vidwrap video{
+               width: 100%;
+                 position: absolute;
+               transform:translateY(-9%)
+          
+           }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="vidwrap">
+            <a href="index2.html"><video src="in/aa.mp4" loop autoplay muted></video></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

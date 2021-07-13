@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>배경이미지</title>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="all">
+    
+
+ <div id="front">
+ <div id="bbox">
+     <a href="in/han.html"><img src="./in/han1_img/gf.gif" alt=""></a>
+ </div>
+ </div>
+<div id="con">
+     <div class="con1">
+        <a href="in/han2.html"><img src="./in/sa2sa.gif" alt=""></a>
+     </div>
+ </div>
+<div id="cont">
+     <div class="con1">
+        <a href="in/han3.html"><img src="./in/hanb.gif" alt=""></a>
+     </div>
+ </div>
+<div id="cond">
+     <div class="con1">
+        <a href="in/en.html"><img src="./in/en1_img/en.gif" alt=""></a>
+     </div>
+ </div>
+    <div id="conk">
+     <div class="con1">
+        <a href="in/en2.html"><img src="./in/en2.gif" alt=""></a>
+     </div>
+ </div>
+    <div id="conq">
+     <div class="con1">
+        <a href="in/en3.html"><img src="./in/en3.gif" alt=""></a>
+     </div>
+ </div>
+    <div id="cona">
+     <div class="con1">
+        <a href="in/col.html"><video src="in/col.mp4" loop muted autoplay></video></a>
+     </div>
+ </div>
+    <div id="conf">
+     <div class="con1">
+        <a href="in/rel.html"><video src="in/rel.mp4" loop muted autoplay></video></a>
+     </div>
+ </div>
+
+ 
+
+ 
+   
+  <div id="han1">
+  <div id="one"><span class="about"></span></div>
+  <div id="two"><span class="about"></span></div>
+  <div id="three"><span class="about"></span></div>
+  <div id="four"><span class="about"></span></div>
+  <div id="six"><span class="about"></span></div>
+  <div id="sixe"><span class="about"></span></div>
+  <div id="seven"><span class="about"></span></div>
+  <div id="eghit"><span class="about"></span></div>
+
+   <img src="./img/bg.jpg" alt="">
+    
+    </div>
+    
+   
+    </div>
+    
+    
+        <div id="wrap">
+
+        <header>
+               <a href="#" onclick="j_test(0)">
+       <div id="top">
+              
+                   <h4>Top</h4>
+               
+       </div>
+       </a>
+
+            <nav>
+                <ul>
+                    <a href="./index.html"><li><h1 class="hov">Visual<br>communicationn</h1></li></a>
+                    <li>반갑습니다:)</li>
+                    <li class="hov">
+                       <a href="#">타이포그래피</a>
+                    </li>
+                </ul>
+               
+            </nav>   
+            <article id="menu">
+                <ul>
+                    <a href="#" onclick="j_test(0)"><li class="hov nav" id="color"><p>본고딕 서체꼴이야기</p></li></a>
+                    <a href="#" onclick="j_test(1)"><li class="hov nav"><p>본고딕 사이사이</p></li></a>
+                    <a href="#" onclick="j_test(2)"><li class="hov nav"><p>본고딕 크기와 무게</p></li></a>
+                    <a href="#" onclick="j_test(3)"><li class="hov nav"><p>Uber move 서체꼴이야기</p></li></a>
+                    <a href="#" onclick="j_test(4)"><li class="hov nav"><p>Uber move 사이사이</p></li></a>
+                    <a href="#" onclick="j_test(5)"><li class="hov nav"><p>Uber move 크기와 무게</p></li></a>
+                    <a href="#" onclick="j_test(6)"><li class="hov nav"><p>형태와 컬러</p></li></a>
+                    <a href="#" onclick="j_test(7)"><li class="hov nav"><p>실사의 위력</p></li></a>
+                </ul>
+            </article>
+        </header>
+      
+        <main>
+      
+        </main>
+        <footer>
+        <div id="footer-nav">
+            <div id="footer-in">
+            <ul>
+                <a href="https://www.facebook.com/kr.com.net/" target="_blank"><li><img src="./img/facebook.svg" width="7.5px" alt=""></li></a>
+                <a href="https://www.instagram.com/lsm__official/" target="_blank"><li><img src="./img/insta.svg" width="15px" alt=""></li></a>
+                <a href="https://youtube.com/channel/UCq1vlN1kotUqrqZNdJZG9bQ" target="_blank"> <li><img src="./img/youtube.svg" width="17.5px" alt=""></li></a>
+            </ul>
+            <p>Scroll down</p>
+            </div>
+        </div>
+        </footer>
+        <div class="popup" style="display:none;">
+            <div class="pop-back"></div>
+            <div class="introduce">
+                <div class="scroll">
+                    <img src="./img/me.png" alt="">
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+ 
+    
+    
+     <script src="js/script.js" type="text/javascript">    
+    </script>    
+    <script>
+     function j_test(n){
+         $('html, body').stop().animate({
+             scrollTop : $('span.about').eq(n).offset().top
+         });
+     }
+            
+ </script>
+       
+ 
+
+</body>
+
+</html>

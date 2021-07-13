@@ -1,0 +1,609 @@
+/* 21861091 이승민 */
+html,body{
+    width: 100%;
+     background-color: #ededed;
+    color: #ffffff;  font-size: 14px;
+    
+    font-family:"Noto Sans CJK KR";
+  
+}
+a{color: inherit;
+text-decoration: none;}
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    transition:all 2s;
+    -webkit-transition:all 2s;
+    -moz-transition:all 2s;
+    -ms-transition:all 2s;
+    -o-transition:all 2s;
+}
+header nav ul{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    
+}
+header nav li{
+    position: absolute;
+}
+header nav li:nth-child(2){
+    left: 47.5%;
+    font-size: 10px;
+    
+}
+header nav li:nth-child(3){
+    right: 0;
+    font-weight: 700
+}
+
+header.white { color:black; }
+#footer-nav.white { color:black; }
+header nav{
+    padding-top: 50px;
+      width:93%;
+      margin: auto;
+     
+    
+}
+
+header nav h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+header #menu{
+ 
+    height: 27vh;
+    position: relative;
+    font-size: 10px;
+    
+}
+header #menu ul{
+    position: absolute;
+    top: 35%;
+    left: 3.5%;
+
+}
+header #menu li{
+    margin-top: 25px;
+    font-weight: 500
+}
+#color{
+    color: #fa8c51;
+}
+.hov:hover{
+    color: #fa8c51;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#hide{}
+   
+   
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#footer-nav{
+  margin: auto;
+  width:93%;
+  justify-content: center;
+  padding-bottom: 50px;
+  transition:all 0.5s ;
+
+}
+#footer-in{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-in p{
+    font-size: 10px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 120px;
+    
+}
+footer ul li{
+    text-align: center;
+    
+}
+#footer-in p{
+    align-self:flex-end;
+    
+}
+
+}
+
+
+
+
+
+
+  
+
+
+.popup{
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgb(0, 0, 0, 0.7);
+   z-index:10000;
+}
+.popup .introduce{
+    position:relative;
+    width: 70%;
+    margin:0 auto;
+    background-color: #131313;
+    padding:100px 40px;
+    margin-top: 30px;
+   
+}
+/* .popup .introduce .scroll */
+.popup .pop-back { width:100%; height:100vh; position:absolute; top:0; left:0; }
+.popup .introduce img{
+    width: 100%;
+}
+
+
+
+
+.contents-img img{
+    
+    width: 100%;
+}
+.img-hover{
+    left: 2%;
+    top: 2%;
+    width: 250px;
+    height:190px;
+    background-color: #000;
+    position: absolute;
+    opacity: 0;
+  text-align: center;
+}
+.text-wrap1{
+    height: 30px;
+    margin-top: 59px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 37px;
+}
+.img-hover:hover{
+    opacity: 80%;
+    transition: 0.8s;
+
+}
+.img-wrap{
+    width: 250px;
+    height:190px;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+}
+.text-b{
+    
+    margin-top: 20px;
+}
+#bg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: px;
+
+}
+#bg img{
+    width: 100%;
+    opacity: 30%;
+}
+
+
+
+
+
+  
+  
+#hide{}
+        #han1{
+        
+            float: right;
+            width: 100%;
+          
+        }
+        #all img{
+            width: 100%;
+    
+            
+        }
+        #l_nav{
+            height: 100%;
+            width: 13%;
+            float: left;
+            background-color: #E0E0E0;
+            z-index: 2;
+            position: fixed;
+            opacity: 0;
+        }
+        
+        #u_nav{
+            color: #fff;
+            width: 100%;
+            height: 40px;
+            
+            position: fixed;
+            z-index: 2;
+            
+        }
+        #u_nav li{
+            float: left;
+            width: 105px;;
+            font-size: 14px;
+}
+        #l_nav_in{
+            margin-top:30;
+            position: fixed;
+        }
+        #one{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 0;
+        }
+        #two{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+             
+            top: 60vw;
+        
+        }
+        #three{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+         
+            top: 103vw;
+
+        }
+        #four{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+ 
+            top: 154vw;
+
+        }
+    
+        #six{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+    
+            top: 210.5vw;
+
+        }
+        #sixe{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+     
+            top:258vw;
+
+        }
+        #seven{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+         
+            top: 308vw;
+
+        }
+        #eghit{
+             width: 100%;
+            height: 1px;
+            position: absolute;
+             top: 362vw;
+        
+        }
+        #nine{
+            width: 100%;
+            height:1px;
+            position: absolute;
+            top: 413vw;
+         
+
+        }
+        #ten{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+       
+            top: 459vw;
+
+        }
+        #el{
+            width: 100%;
+            height:1px;
+            position: absolute;
+         
+            top: 507vw;
+
+        }
+        #tw{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+ 
+            top: 531vw;
+
+        }
+        #ft{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top:584vw;
+     
+
+        }
+        #fi{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 643vw;
+        
+        }
+        #sx{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 685vw;
+           
+        }
+        #top{
+            top: 15%;
+            left: 93.7%;
+            width:40px;
+            height:40px;
+            background-color: #fff;
+            color: #fa8c51;
+            position: fixed;
+            z-index: 99;
+            line-height: 30px;
+            border-top: #fa8c51 solid 8px;
+            font-weight: bold
+
+        }
+        #top:hover{
+            height: 40px;
+            line-height: 40px;
+            border: solid 1px;
+            transition: 0.5s;
+        }
+        #top h4{
+            text-align: center;
+        }
+            #home{
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            z-index: 99;
+                top: 5%;
+                left: 93.8%;
+        }
+ 
+            #side_menu{
+               
+                right: 0%;
+            position: fixed;
+            z-index: 999999;
+                color: #fff;
+            
+        }
+        #menu_bt{
+            
+            width: 90px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            background-color: aqua;
+            color: #fff;
+        }
+        #menu_bt:hover{
+            width: 300px;
+            height: 1080px;
+            color: #fff;
+            background-color: rgba(0,0,0,1);
+            transition: 1s;
+           
+        }
+     
+        
+        #menu_img{
+            margin-top: 30px;
+            margin-right: 50px;
+            width: 50px;
+            height: 50px;
+            
+         
+        }        
+        #sidebar{
+            top: 100;
+
+            position: absolute;
+        }
+       #menu_bt img:hover > #sidebar{
+            display: block}
+        
+        #sidebar li{
+            text-align: center;
+            line-height: 80px;
+            width: 300px;
+            height: 80px;
+
+        }
+        #sidebar li:hover{
+            background-color: rgba(255,255,255,0.3);
+            transition: 0.4s;
+        }
+        #home1{
+            position: absolute;
+            z-index: 999;
+            width: 60px;
+
+            height: 60px;
+            left: 4.5%;
+            top: 6%;
+           
+        }
+        #home2{
+            position: absolute;
+            z-index: 99999;
+            width: 60px;
+            box-shadow: 0px 0px 3px #000;
+            height: 60px;
+            left: 4%;
+            top: 5%;
+           opacity: 0%;
+        }
+        #home2:hover{
+        opacity: 100%;
+           transition: 0.5s;
+        }
+      
+        #home1 img{
+            width: 47px;
+        }
+        #all{
+            width: 100%;
+        }
+        #front{
+            width: 100%;
+           
+            overflow: hidden;
+          
+              position: absolute;
+
+        }
+        #bbox{
+           
+            width: 50%;
+          margin: auto;
+          background-color: #ffffff;
+            margin-top: 11.5%;
+
+        }
+#bbox:hover{
+    width:55%;
+    transition: 1s;
+   
+}
+        #bbox img{
+            width: 100%;
+            height: 100%;
+        }
+        #con{
+            
+            top:71.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+            
+        }
+        #cont{
+            
+            top:114.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+        #cond{
+
+            top:165.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+         #conk{
+
+            top:222vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+         #conq{
+
+            top:269.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+         #cona{
+
+            top:319.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+         #conf{
+
+            top:373.5vw;
+/*             background-color: #fff;*/
+            overflow: hidden;
+              position: absolute;
+           width: 100%;
+        }
+
+        .con1{
+         margin-top: 8%;
+             width: 50%;
+          margin: auto;
+          background-color: #ffffff;
+            
+        }
+.con1:hover{
+    width: 55%;
+    transition: 1s;
+}
+        .con1 img{
+            width: 100%;
+            height: 100%;
+        }
+.con1 video{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#wrap{
+    width: 100%;
+}
+#vidwrap{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#vidwrap video{
+    width: 100%;
+}
